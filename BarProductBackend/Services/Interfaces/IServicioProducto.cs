@@ -1,5 +1,5 @@
 ﻿using BarProductBackend.Models;
-namespace BarProductBackend.Repositories.Interfaces
+namespace BarProductBackend.Services.Interfaces
 {
     public interface IServicioProducto
     {
