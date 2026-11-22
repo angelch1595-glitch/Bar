@@ -34,6 +34,9 @@ builder.Services
     .AddEntityFrameworkStores<BarDbContext>();
 builder.Services.AddScoped<IProducto, SQL_ProductoRepositotio>();
 builder.Services.AddScoped<IServicioProducto, ServicioProducto>();
+builder.Services.AddScoped<ITokenServicio, TokenServicio>();
+builder.Services.AddScoped<IAuthServicio, AuthServicio>();
+builder.Services.AddScoped<IRolServicio, RolServicio>();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddSwaggerGen(c =>
 {
